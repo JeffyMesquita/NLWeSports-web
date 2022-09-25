@@ -9,7 +9,6 @@ import logoImg from "./assets/logo-nlw-esports.svg";
 
 import { CreateAdBanner } from "./components/CreateAdBanner";
 import { GameBanner } from "./components/GameBanner";
-import { Input } from "./components/Form/Input";
 import { CreateAdModal } from "./components/CreateAdModal";
 
 function App() {

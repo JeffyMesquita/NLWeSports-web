@@ -1,0 +1,27 @@
+ <Select.Root>
+              <Select.Trigger className="bg-zinc-900 py-3 px-4 rounded flex justify-between text-sm placeholder:text-zinc-500">
+                <Select.Value />
+                <Select.Icon />
+              </Select.Trigger>
+
+              <Select.Portal>
+                <Select.Content>
+                  <Select.Viewport>
+                    <Select.Group>
+                      <Select.Item >
+                        <Select.ItemText>
+                          Selecione o game que deseja jogar
+                        </Select.ItemText>
+                      </Select.Item>
+                      <Select.Label />
+                      <Select.Item>
+                        <Select.ItemText>
+                          Selecione o game que deseja jogar
+                        </Select.ItemText>
+                        <Select.ItemIndicator />
+                      </Select.Item>
+                    </Select.Group>
+                  </Select.Viewport>
+                </Select.Content>
+              </Select.Portal>
+            </Select.Root>
